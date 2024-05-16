@@ -9,6 +9,7 @@ class CourseSeriesAppConfig(AppConfig):
     """Config for course series app."""
 
     name = "course_series"
+    default_auto_field = "django.db.models.BigAutoField"
     plugin_app = {
         PluginURLs.CONFIG: {
             PROJECT_TYPE_LMS: {

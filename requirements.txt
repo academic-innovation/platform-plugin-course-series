@@ -1,4 +1,8 @@
 django~=3.2.0
 edx-django-utils
+edx-opaque-keys
+factory-boy
 nox
+pillow
+pytest-django
 ruff
