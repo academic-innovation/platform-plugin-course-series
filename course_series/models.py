@@ -112,6 +112,9 @@ class CourseSeries(models.Model):
     # https://github.com/openedx/course-discovery/blob/a0124c/course_discovery/apps/course_metadata/models.py#L3222-L3225
     one_click_purchase_enabled = False
 
+    class Meta:
+        verbose_name_plural = "course series"
+
     def __str__(self):
         return self.title
 
